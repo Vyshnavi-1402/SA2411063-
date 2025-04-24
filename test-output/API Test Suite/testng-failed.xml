@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API Tests(failed)">
+    <classes>
+      <class name="com.APItests.UpdateContact">
+        <methods>
+          <include name="tearDown"/>
+          <include name="UpdateContact_putreq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.UpdateContact -->
+      <class name="com.APItests.add_user">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addUser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.add_user -->
+      <class name="com.APItests.getContactList">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ContactList_getreq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.getContactList -->
+      <class name="com.APItests.AddContact">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddContact_postreq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.AddContact -->
+      <class name="com.APItests.LogoutUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LogOutUser_postreq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.LogoutUser -->
+      <class name="com.APItests.UpdateContactPatch">
+        <methods>
+          <include name="UpdateContact_patchreq"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.UpdateContactPatch -->
+      <class name="com.APItests.GetContact">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getContact_getreq"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.APItests.GetContact -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+</suite> <!-- Failed suite [API Test Suite] -->
